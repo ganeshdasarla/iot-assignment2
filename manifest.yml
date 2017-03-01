@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-assignment2
+  host: iot-assignment2
+  disk_quota: 1024M
+  services:
+  - iot-assignment2-cloudantNoSQLDB
+  - iot-assignment2-iotf-service
